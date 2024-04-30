@@ -28,7 +28,7 @@ function getDOB() {
   var m = monthNow - monthBirth;
   var y = yearNow - yearBirth;
 
-  if (y > 0) {
+  if (y >= 0) {
     // const message = `Your current Age is ${y} years ${m} months ${d} days`
     document.getElementById("currentAge").innerHTML = "Your current Age is " + y + " years " + m + " months " + d + " days";
 
